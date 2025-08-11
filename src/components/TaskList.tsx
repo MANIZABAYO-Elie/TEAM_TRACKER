@@ -24,7 +24,7 @@ export default function TaskList() {
   });
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 ">
       {filteredTasks.length === 0 ? (
         <p className="text-gray-500">No tasks match your filters</p>
       ) : (

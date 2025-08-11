@@ -1,4 +1,4 @@
-// src/types/task.ts
+// tasks types
 export type Priority = "Low" | "Medium" | "High";
 export type Category = "Frontend" | "Backend" | "Meeting" | "Design";
 

@@ -1,4 +1,4 @@
-// src/components/TaskForm.tsx
+
 import React, { useState } from "react";
 import type { Task, Priority, Category } from "../types/task";
 import { useTaskDispatch } from "../contexts/TaskContext";
@@ -79,7 +79,7 @@ export default function TaskForm({ existingTask, onClose }: TaskFormProps) {
                     onChange={handleChange}
                     placeholder="Enter name"
                 />
-                <Button type="submit" label={existingTask ? "Update Task" : "Add Task"} />
+                <Button className="mt-4" type="submit" label={existingTask ? "Update Task" : "Add Task"} variant="primary" />
             </div>
 
         </form>
